@@ -27,4 +27,4 @@ end
 #description: project.css("p.bbcard_blurb").text
 #location: project.css("ul.project-meta li a span.location-name").text
 #percent_funded: project.css("ul.project-stats li.first.funded strong").text.gsub("%", "").to_i
-puts create_project_hash
+create_project_hash
